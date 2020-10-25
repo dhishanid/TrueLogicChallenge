@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.dhishani.SpringBootChallenge.service;
 
 import org.slf4j.Logger;

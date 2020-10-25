@@ -99,6 +99,9 @@ public class RecordPlayerServiceImpl implements RecordPlayerService{
 			throw new InvalidRequestException("List of players was empty or null in the Request");
 		}
 		  playerResponse.setResults(resultList);
+		  playerResponse.setStatus("OK");
+		  playerResponse.setErrorMsg("");
+		  
 		
 		return playerResponse;
 

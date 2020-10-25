@@ -20,6 +20,28 @@ public class Player {
 	private String name;
 	private String playerType;
 	
+	
+	
+	public Player() {
+		
+	}
+	
+	
+	public Player(Long id, String name, String playerType) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.playerType = playerType;
+	}
+
+
+	public Player(String name, String playerType) {
+		super();
+		this.name = name;
+		this.playerType = playerType;
+	}
+
+
 	public String getName() {
 		return name;
 	}
